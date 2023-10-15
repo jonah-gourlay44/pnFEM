@@ -4,7 +4,7 @@ import constants
 class Mesh:
 
     def __init__(self, num_nodes, length):
-        length = length / constants.Material.L_D
+        length = length # unit length is Debye length
 
         self.num_nodes = num_nodes
         self.num_edges = num_nodes - 1
